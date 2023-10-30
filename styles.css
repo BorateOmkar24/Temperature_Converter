@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  background-color: #ffffffa1;
+  backdrop-filter: blur(3px);
+  border-radius: 20px;
+  border: solid slategrey;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url(wp12017054.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+#result {
+  width: 200px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+input {
+  height: 40px;
+  width: 150px;
+  border: solid slategrey 2px;
+  background-color: bisque;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+select {
+  margin: 10px;
+  height: 40px;
+  width: 150px;
+  border: solid slategray 2px;
+  background-color: bisque;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn {
+  height: 40px;
+  width: 150px;
+  border: solid slategray 1px;
+  border-radius: 50px;
+  box-shadow: 0px 2px 2px rgb(225, 70, 23);
+  background-color: rgb(245, 169, 146);
+}
